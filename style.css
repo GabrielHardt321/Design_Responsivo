@@ -66,9 +66,10 @@ img {
 
 /* HERO */
 .hero {
-  display: ;
-  gap: ;
-  align-items: ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
   margin-bottom: 3rem;
   background-color: white;
   padding: 2rem;
@@ -78,7 +79,7 @@ img {
 
 .hero-texto,
 .hero-imagem {
-  flex: ;
+  width: 100%;
 }
 
 .hero h2 {
