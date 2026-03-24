@@ -200,43 +200,26 @@ th {
 /* Tablets */
 @media (max-width: 992px) {
   .hero {
-    
+    grid-template-columns: 1fr; /* Hero vira uma coluna */
+    text-align: center;
   }
+}
 
-  .cards {
-    
-  }
-
-  .grid-galeria {
-    
+/* NOVO: Breakpoint intermediário */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
   }
 }
 
 /* Celulares */
 @media (max-width: 600px) {
   .menu {
-    
-
-  }
-
-  .hero {
-    padding: 1.2rem;
+    flex-direction: column; /* Menu "Hamburguer" fake (vertical) */
+    align-items: stretch;
   }
 
   .hero h2 {
-    font-size: 1.5rem;
-  }
-
-  .cards {
-    
-  }
-
-  .grid-galeria {
-    
-  }
-
-  .box {
-    padding: 2rem;
     font-size: 1.5rem;
   }
 }
