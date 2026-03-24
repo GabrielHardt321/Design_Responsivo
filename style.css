@@ -43,12 +43,12 @@ img {
 
 /* MENU */
 .menu {
-  display: ;
-  justify-content: ;
+  display: flex;
+  justify-content: center;
   gap: 1rem;
   background-color: #212529;
   padding: 1rem;
-  flex-wrap: ;
+  flex-wrap: wrap;
 }
 
 .menu a {
