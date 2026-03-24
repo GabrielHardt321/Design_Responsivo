@@ -19,7 +19,7 @@ img {
 }
 
 .container {
-  width: ;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem 0;
 }
@@ -33,12 +33,12 @@ img {
 }
 
 .topo h1 {
-  font-size: ;
+  font-size: clamp(1.8rem, 5vw, 3rem);
   margin-bottom: 0.5rem;
 }
 
 .topo p {
-  font-size: ;
+  font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 /* MENU */
